@@ -1,10 +1,5 @@
 function BlogLayout({ children }) {
-  return (
-    <div>
-      <h2>This is a blog layout</h2>
-      {children}
-    </div>
-  );
+  return <div>{children}</div>;
 }
 
 export default BlogLayout;

@@ -7,6 +7,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 function NavLink({ item }) {
   const pathName = usePathname();
+
   const classNames = clsx(styles.container, {
     [styles.active]: item.path === pathName,
   });

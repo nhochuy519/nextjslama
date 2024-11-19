@@ -38,6 +38,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: lightblue;
+    background-color: var(--bg);
+    z-index: 999;
   }
 }
